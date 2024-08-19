@@ -1,27 +1,27 @@
 # STOCK PREDICTION USING LSTM
 
-This project focuses on predicting stock prices using a Long Short-Term Memory (LSTM) neural network, a specialized type of recurrent neural network (RNN) designed to model and predict time-series data effectively. By leveraging historical stock price data, the model aims to forecast future stock prices, enabling users to gain insights into potential market trends and make more informed trading decisions.
+## Overview
+This project is focused on predicting the stock prices of Microsoft Corporation (MSFT) using a Long Short-Term Memory (LSTM) neural network. The model uses historical stock data to forecast future prices, offering insights that can be valuable for investors and traders. The dataset is sourced from Yahoo Finance, and the project involves data preprocessing, model building, training, and evaluation.
 
-## Dataset
-The dataset used in this project consists of historical stock prices for Microsoft Corporation (MSFT). The data is sourced from the Yahoo Finance API, which provides reliable and up-to-date stock market data, including open, high, low, close prices, and trading volume. This rich dataset serves as the foundation for training and testing the LSTM model.
-
-## Project Objectives
-Data Collection: Fetch historical stock prices for Microsoft Corporation (MSFT) using the Yahoo Finance API.
-Data Preprocessing: Clean and preprocess the data, including handling missing values and creating sequences for model input.
-Model Building: Design and train an LSTM model capable of capturing temporal dependencies in the stock price data.
-Prediction: Use the trained LSTM model to predict future stock prices and evaluate the model’s performance.
-Visualization: Plot and visualize the predicted stock prices against actual prices to assess the model’s accuracy and reliability.
+## Key Points
+1. Dataset: Microsoft Corporation (MSFT) stock data sourced from Yahoo Finance.
+2. Data Overview: Initial exploration using head(), info(), dtypes, describe(), and checking for missing values.
+3. Data Visualization: Plotting the historical Close price to understand stock trends.
+4. Data Preparation: Normalization and creating time-series sequences for LSTM input.
+5. Model Building: Constructing, compiling, and training the LSTM model.
+6. Prediction: Predicting stock prices on test data and evaluating performance.
+7. Results Visualization: Plotting predicted prices against actual prices to assess model accuracy.
 
 ## Requirements
 
 1. Python 3.x
-2. Libraries:
-3. TensorFlow/Keras
-4. NumPy
-5. Pandas
-6. Matplotlib
-7. Scikit-learn
-8. yfinance
+Libraries:
+2. TensorFlow/Keras
+3. NumPy
+4. Pandas
+5. Matplotlib
+6. Scikit-learn
+7. yfinance
 
 ## Results
 The model’s predictions will be output as graphs showing the comparison between actual and predicted stock prices for Microsoft Corporation (MSFT).
